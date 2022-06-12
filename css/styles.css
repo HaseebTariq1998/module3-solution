@@ -1,0 +1,136 @@
+#header-nav{
+    background-color: grey;
+    border: solid;
+    border-width: 1px;
+    overflow: hidden;
+}
+
+#main-heading{
+    position: absolute;
+    margin-top: 5px;
+    left: 30px;
+    top: 30px;
+    color: black;
+    font-family:  'Oxygen', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    width: 200px;
+    margin: 0;
+}
+
+#menu{
+ width: 100%;
+ margin: 0;
+ border: solid;
+ border-width: 1px;
+ background-color: darkgray;
+}
+
+ul{
+    list-style-type:none;
+    padding: 0;
+    margin-top: 10px; 
+}
+
+h4{
+    margin: 0px;
+    text-align: center;
+}
+
+hr{
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+#text{
+    height: 1300px;
+    overflow: hidden;
+}
+
+#collapsable-nav{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    overflow:hidden;
+    height: 129.5px;   
+}
+
+.navbar-collapse{
+    padding: 0;
+}
+
+#text{
+    background-color: darkgrey;
+    overflow: hidden;
+}
+
+#row{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.text-section{
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#navButton{
+    margin-top: 10px;
+    border-color: black;   
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}
+
+.navbar-header{
+    position: relative;
+}
+
+#main-body-title{
+    font-family:  'Oxygen', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#chicken-heading{
+    font-family:  'Oxygen', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+a{
+      color: black;
+}
+
+/* To impose condtion on visibility of */
+/* For  Large devices */
+@media (min-width: 992px) {
+ #menu{
+     visibility:hidden;
+ }
+ }
+ 
+ /* For Medium devices  */
+ @media (min-width: 768px) and (max-width: 991px) {
+    #menu{
+        visibility:hidden;
+    }
+ }
+ 
+ /*     For Small devices   */
+ @media  (min-width: 0px) and (max-width: 767px) {
+    #menu{
+        visibility:visible;
+    }
+    #main-heading{
+        top: 10px;
+        font-size: 28px;
+    }
+ }
